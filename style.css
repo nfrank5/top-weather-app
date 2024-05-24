@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+
+#farenheit-celsius {
+ margin: 1rem;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(177, 177, 177);
+  color: white;
+  text-align: center;
+}
+
+
+.icon{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px gray double;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  background-color: white;
+}
+
+
+.display-weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px black solid;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  background-color: rgb(237, 237, 237);
+}
