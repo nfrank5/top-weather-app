@@ -27,7 +27,7 @@ farenheitCelsiusButton.addEventListener("click", toggleCelsiusFarenheit )
 async function getCurrentWeather(location){
     let data;
 
-    const response = await fetch(`http://api.weatherapi.com/v1/current.json?key=${APIKey}&q=${location}&aqi=no`, 
+    const response = await fetch(`https://api.weatherapi.com/v1/current.json?key=${APIKey}&q=${location}&aqi=no`, 
     { mode: 'cors' });
 
     if(response.ok) {
